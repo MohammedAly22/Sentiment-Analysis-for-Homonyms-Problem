@@ -47,7 +47,6 @@ The two models selected are **LSTM-based** and **DistilBERT-based**. The rationa
 # Results
 Before training, I conducted a **straightforward grid search** to determine the **optimal hyperparameters**. This included parameters such as the **embedding dimension** for the Keras `Embedding` layer and the number of hidden units in the LSTM cell. The detailed results, ordered by the highest validation accuracy, are presented in the following table:
 
-## Model Curves
 | Package | Validation Loss | Validation Accuracy |
 | --- | --- | --- |
 | (768, 128) | 0.471817	 | 0.840596 |
@@ -68,6 +67,7 @@ Here is a graphical representation of the above table:
 
 As we can see, the optimal hyperparameters achieving the best validation accuracy are **768** and **128** for `embedding_dim` and `hidden_dim` respectively.
 
+## Model Curves
 ### LSTM-Based Model (Imbalanced)
 | Loss Curve | Accuracy Curve | Confusion Matrix |
 | --- | --- | --- |
