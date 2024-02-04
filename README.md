@@ -22,7 +22,7 @@ The project is implemented using the following Python packages:
 | TensorFlow | Open-source machine learning framework |
 | TensorFlow | High-level deep learning API |
 | Transformers | Hugging Face package contains state-of-the-art Natural Language Processing models |
-| Dataset | Hugging Face package contains datasets |
+| Datasets | Hugging Face package contains datasets |
 
 # Dataset
 The [Stanford Sentiment Treebank (SST)](https://huggingface.co/datasets/sst2) is a corpus with fully labeled parse trees that allows for a complete analysis of the compositional effects of sentiment in language. The corpus is based on the dataset introduced by Pang and Lee (2005) and consists of **11,855** single sentences extracted from **movie reviews**. It was parsed with the Stanford parser and includes a total of **215,154** unique phrases from those parse trees, each annotated by 3 human judges.
