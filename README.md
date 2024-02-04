@@ -49,11 +49,11 @@ Before training, I conducted a **straightforward grid search** to determine the 
 
 | Package | Validation Loss | Validation Accuracy |
 | --- | --- | --- |
-| (768, 128) | 0.471817	 | 0.840596 |
+| (768, 128) | 0.471817	 | **0.840596** |
 | (768, 32)	| 0.492739	 | 0.839450 |
 | (64, 64) | 0.455455	 | 0.833716 |
 | (512, 128)	| 0.542884 | 0.833716 |
-| (128, 64)	| 0.420377	 | 0.829128 |
+| (128, 64)	| **0.420377**	 | 0.829128 |
 | (64, 128)	| 0.479428 | 0.822248 |
 | (512, 64)	| 0.487282 | 0.817661 |
 | (512, 32)	| 0.444669 | 0.815367 |
@@ -76,9 +76,9 @@ As we can see, the optimal hyperparameters achieving the best validation accurac
 Classification Report:
 |  | Precision | Recall | F1-Score | Support |
 | --- | --- | --- | --- | --- |
-| 0 | 0.83 | 0.87 | 0.85 | 428 |
-| 1 | 0.87 | 0.82 | 0.85 | 444 |
-| accuracy |  | | 0.85 | 872 |
+| 0 | 0.83 | **0.87** | 0.85 | 428 |
+| 1 | **0.87** | 0.82 | 0.85 | 444 |
+| accuracy |  | | **0.85** | 872 |
 | macro avg | 0.85 | 0.85 | 0.85 | 872 |
 | weighted avg | 0.85 | 0.85 | 0.85 | 872 |
 
@@ -90,9 +90,9 @@ Classification Report:
 Classification Report:
 |  | Precision | Recall | F1-Score | Support |
 | --- | --- | --- | --- | --- |
-| 0 | 0.85 | 0.79 | 0.82 | 428 |
-| 1 | 0.81 | 0.86 | 0.83 | 444 |
-| accuracy |  | | 0.83 | 872 |
+| 0 | **0.85** | 0.79 | 0.82 | 428 |
+| 1 | 0.81 | **0.86** | 0.83 | 444 |
+| accuracy |  | | **0.83** | 872 |
 | macro avg | 0.83 | 0.83 | 0.83 | 872 |
 | weighted avg | 0.83 | 0.83 | 0.83 | 872 |
 
@@ -104,9 +104,9 @@ Classification Report:
 Classification Report:
 |  | Precision | Recall | F1-Score | Support |
 | --- | --- | --- | --- | --- |
-| 0 | 0.92 | 0.89 | 0.90 | 428 |
-| 1 | 0.89 | 0.92 | 0.91 | 444 |
-| accuracy |  | | 0.90 | 872 |
+| 0 | **0.92** | 0.89 | 0.90 | 428 |
+| 1 | 0.89 | **0.92** | 0.91 | 444 |
+| accuracy |  | | **0.90** | 872 |
 | macro avg | 0.91 | 0.90 | 0.90 | 872 |
 | weighted avg | 0.91 | 0.90 | 0.90 | 872 |
 
