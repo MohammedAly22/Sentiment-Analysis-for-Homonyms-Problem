@@ -112,8 +112,7 @@ Classification Report:
 
 ## Models Testing
 to test the models' abilities to solve the homonyms problems in sentiment analysis, I prepared some confusing test cases summarized in the following table:
-![predictions](https://github.com/MohammedAly22/Sentiment-Analysis-for-Homonyms-Problem/assets/90681796/63121f30-5045-416c-b3ca-b9e94d92629e)
-
+![models_predictions](https://github.com/MohammedAly22/Sentiment-Analysis-for-Homonyms-Problem/assets/90681796/11c6083b-7cd0-406b-aaed-549e724a658d)
 
 # Conclusion
 Ultimately, the decision to opt for fixed embedding models or contextualized embeddings hinges on the nature of the data the model will encounter in real-world scenarios. Fixed embeddings might suffice when dealing with straightforward data, offering good performance while requiring less memory than transformer-based models. However, in cases where the data is more complex, as demonstrated in our test cases, leveraging a transformer-based model with a self-attention mechanism can yield substantial performance improvements. It's crucial to note that this advantage comes at the expense of a higher memory footprint.
